@@ -10,6 +10,17 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
+            Stroj[] poleStrojov = new Stroj[]
+            {
+                new Stroj("StrojA"),
+                new Stroj("StrojB"),
+                new Stroj("StrojC"),
+                new Stroj("StrojD")
+            };
+
+            Console.ReadLine();
+
+
         }
     }
 }
